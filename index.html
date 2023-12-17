@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARK PATTERN</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
+    <script src="start.js" defer></script>
+    <script src="data.js" defer></script>
+    
+</head>
+<body>
+    <div id="container">
+            <section id="main">
+                <div id="logo"></div>
+                <div id="textRow1">:퀴즈로 알아보기</div>
+                <div id="line"></div>
+                <div id="textRow2">다크패턴이란? 사용자가 의도하지 않은 선택을 하도록 사용자를 속이는 
+                    UX(사용자 경험)를 말한다.</div>
+                <div id="startBtn" onclick="js:begin()"><p id="start">시작</p></div>
+            </section>
+        
+            <section id="qna">
+                <div class="status">
+                    <div class="statusBar"><div class="statusBar1"></div></div>
+                </div>
+                <div class="qBox">
+                </div>
+                <div class="qBox1">
+                    <div class="qBox2"></div>
+                    <div class="qBox3"></div>
+                </div>
+                
+                <div class="answerBox">
+
+                </div>
+        
+            </section>
+        
+            <section id="result">
+                <div class="resultName"></div>
+
+                <div id="resultImgWrapper">
+                    <div id="resultImg">
+                        <div class="resultA01"><div class="resImg"></div></div>
+                        <div class="resultA01"><div class="resImg"></div></div>
+                        <div class="resultA01"><div class="resImg"></div></div>
+                        <div class="resultA01"><div class="resImg"></div></div>
+                        <div class="resultA01"><div class="resImg"></div></div>
+                        <div class="resultA01"><div class="resImg"></div></div>
+                        <div class="resultA01"><div class="resImg"></div></div>
+                        <div class="resultA01"><div class="resImg1"></div></div>
+                    </div>
+                </div>
+                <div class="resultDesc"></div>
+                <div id="reStartBtn" onclick="js:reStart()"><p id="start">다시</p></div>
+            </section>
+    </div>
+
+</body>
+</html>

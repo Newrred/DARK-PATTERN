@@ -1,0 +1,208 @@
+@media (max-width: 768px) {
+    #main{
+        width: 45vmax;
+        height: 600px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+    }
+
+    #logo{
+        margin-top: 1vmax;
+        width: 45vmax;
+        height: 20vmax;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(main_img/mainLogo2.png);
+    }
+
+    #textRow1{
+        padding: 1vmax 0 0 0.3vmax;
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    #textRow2{
+        padding: 1vmax 0 0 1vmax;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    #mainImg01{
+        position: absolute;
+        right: 0%;
+        top: 35%;
+        width: 45vmax;
+        height: 35vmax;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(main_img/mainGraphic.png);
+    }
+
+    #start{color: white; font-weight: 400; font-size: 4rem;}
+
+    #startBtn{
+        z-index: 999;
+        width: 20vmax;
+        height: 8vmax;
+        background-color: black;
+        border-radius: 20vmax;
+        position: absolute;
+        bottom: 2%;
+        left: 30%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .statusBar{
+        margin: 1vmax 5vmax;
+        width: 50vmax;
+        height: 1vmax;
+        background-color: #D2D2D2;
+        border-radius: 10vmax;
+    }
+
+    .qBox{
+        padding: 1vmax ;
+        background-image: url('q_img/q01.png');
+        width: 43vmax;
+        height: 100px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+    .qBox1{
+        padding: 1vmax ;
+        background-color: rgb(255, 255, 255);
+        width: 43vmax;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .qBox2{
+        padding: 1vmax ;
+        background-image: url('q_img/q01.png');
+        width: 53vmax;
+        height: 500px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 5vmax;
+    }
+    .qBox3{
+        padding: 1vmax ;
+        background-image: url('q_img/q01.png');
+        width: 53vmax;
+        height: 500px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 5vmax;
+    }
+
+    #startBtn :hover{
+        transition: background 0.1s ease-in-out;
+        width: 16vmax;
+        height: 5vmax;
+        background-color: rgb(255, 0, 0);
+        border-radius: 20vmax;
+    }
+    .answerList{
+        margin: 1vmax 5.5vmax;
+        width: 10vmax;
+        height: 10vmax;
+        border-style: none;
+        border-radius: 5vmax;
+        background-color: red;
+        color: white;
+        font-size: 4rem;
+        font-weight: 500;
+        z-index: 999;
+    }
+
+    .answerList :hover{
+        margin: 1vmax 5.5vmax;
+        width: 10vmax;
+        height: 10vmax;
+        border-style: none;
+        border-radius: 5vmax;
+        background-color: red;
+        color: white;
+        font-size: 2rem;
+        font-weight: 200;
+        z-index: 999;
+    }
+
+    .status{
+        display: flex;
+        justify-content: center;
+    }
+    .statusBar{
+        margin: 1vmax 5vmax;
+        width: 23vmax;
+        height: 1vmax;
+        background-color: #D2D2D2;
+        border-radius: 10vmax;
+    }
+    .statusBar1{
+        position: absolute;
+        width: 50vmax;
+        height: 1vmax;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10vmax;
+        transition: width 0.5s ease-in-out;
+    }
+
+    #result{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        display: none;
+    }
+
+    .resultName{
+        padding: 1vmax ;
+        left: 25%;
+        background-image: url('q_img/aa01.png');
+        width: 53vmax;
+        height: 100px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #resultImg{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resultA01{
+        margin: 0.5vmax;
+        width: 38vmax;
+        height: 50vmax;
+        background-color: rgb(255, 182, 182);
+        border-radius: 0.5vmax;
+    }
+    .resImg{
+        width: 38vmax;
+        height: 50vmax;
+        background-image: url(q_img/a01.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 0.5vmax;
+    }
+    
+}

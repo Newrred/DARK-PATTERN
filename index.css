@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,*{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 62.5%;
+    user-select: none;
+}
+
+.col-1{width: 100vmax;}
+.col-2{width: 50vmax;}
+.col-3{width: 33.3vmax;}
+.col-4{width: 25vmax;}
+.col-5{width: 20vmax;}
+.col-6{width: 16.7vmax;}
+
+.h-10{height: 10vmax;}
+.h-20{height: 20vmax;}
+.h-50{height: 50vmax;}
+.h-60{height: 60vmax;}
+
+#container{
+    width: 100%;
+    height: auto;
+}
+
+#main{
+    width: 100vmax;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+#logo{
+    margin-top: 1vmax;
+    width: 100vmax;
+    height: 10vmax;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(main_img/mainLogo.png);
+}
+#line{margin: 1vmax 0 1vmax 0; position: absolute; left: 1%; width: 55vmax; height: 0.1vmax; background-color: black;}
+#textRow1{
+    padding: 1vmax 0 0 1vmax;
+    font-weight: 600;
+    font-size: 8rem;
+}
+#textRow2{
+    padding: 2vmax 0 0 1vmax;
+    font-weight: 400;
+    font-size: 3rem;
+}
+#mainImg01{
+    position: absolute;
+    right: 1%;
+    top: 25%;
+    width: 43vmax;
+    height: 35vmax;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(main_img/mainGraphic.png);
+}
+#start{color: white; font-weight: 400; font-size: 7rem;}
+
+#startBtn{
+    z-index: 999;
+    width: 16vmax;
+    height: 5vmax;
+    background-color: black;
+    border-radius: 20vmax;
+    position: absolute;
+    bottom: 2%;
+    left: 42vmax;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#startBtn :hover{
+    transition: background 0.1s ease-in-out;
+    width: 16vmax;
+    height: 5vmax;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20vmax;
+    align-items: center;
+    
+}
+
+/*----------------------- QNA BOX ----------------------------*/ /*----------------------- QNA BOX ----------------------------*/ 
+
+#qna{
+    background-color: rgb(255, 255, 255);
+    display: none;
+    margin: 0 auto;
+
+}
+.status{
+    display: flex;
+    justify-content: center;
+}
+.statusBar{
+    margin: 1vmax 5vmax;
+    width: 50vmax;
+    height: 1vmax;
+    background-color: #D2D2D2;
+    border-radius: 10vmax;
+}
+.statusBar1{
+    position: absolute;
+    width: 50vmax;
+    height: 1vmax;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10vmax;
+    transition: width 0.5s ease-in-out;
+}
+
+.qBox{
+    padding: 1vmax ;
+    background-image: url('q_img/q01.png');
+    width: 80vmax;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.qBox1{
+    padding: 1vmax ;
+    background-color: rgb(255, 255, 255);
+    width: 98vmax;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.qBox2{
+    padding: 1vmax ;
+    background-image: url('q_img/q01.png');
+    width: 50vmax;
+    height: 380px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 5vmax;
+}
+.qBox3{
+    padding: 1vmax ;
+    background-image: url('q_img/q01.png');
+    width: 50vmax;
+    height: 380px;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 5vmax;
+}
+.answerBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.answerList{
+    margin: 1vmax 10.5vmax;
+    width: 8vmax;
+    height: 8vmax;
+    border-style: none;
+    border-radius: 10vmax;
+    background-color: red;
+    color: white;
+    font-size: 12rem;
+    font-weight: 500;
+    z-index: 999;
+}
+
+.answerBox :hover{
+    border-style: none;
+    border-radius: 10vmax;
+    transition: background 0.1s ease-in-out;
+    background-color: rgb(255, 125, 125);
+    color: white;
+}
+
+/*----------------------- RESULT BOX ----------------------------*/ /*----------------------- RESULT BOX ----------------------------*/ 
+
+#result{
+    padding: 1vmax 0.5vmax;
+    width: 98vmax;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
+.resultName{
+    padding: 1vmax ;
+    background-image: url('q_img/aa01.png');
+    width: 80vmax;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#resultImg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.resultA01{
+    margin: 1vmax;
+    width: 25vmax;
+    height: 32vmax;
+    background-color: rgb(255, 182, 182);
+    border-radius: 0.5vmax;
+}
+.resImg{
+    width: 25vmax;
+    height: 32vmax;
+    background-image: url(q_img/a01.png);
+    background-size: 100%;
+    border-radius: 0.5vmax;
+}
+
+.resultDesc{
+    width: 98vmax;
+    height: 200px;
+}
+#resImg1{
+ background-image: url(q_img/a08.png);
+}
+#reStartBtn{
+    z-index: 999;
+    color: rgb(0, 0, 0);
+    width: 16vmax;
+    height: 5vmax;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20vmax;
+    position: relative;
+    bottom: 5vmax;
+    left: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#reStartBtn :hover{
+    transition: background 0.1s ease-in-out;
+    width: 16vmax;
+    height: 5vmax;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20vmax;
+}

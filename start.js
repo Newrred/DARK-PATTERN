@@ -89,7 +89,6 @@ function goNext(qIndex){
     var q = document.querySelector('.qBox');
     var q2 = document.querySelector('.qBox2');
     var q3 = document.querySelector('.qBox3');
-    //q.innerHTML = qnaList[qIndex].q;
     q.style.backgroundImage = "url('" + qnaList[qIndex].url + "')";
     q2.style.backgroundImage = "url('" + qnaList[qIndex].url2 + "')";
     q3.style.backgroundImage = "url('" + qnaList[qIndex].url3 + "')";
